@@ -48,3 +48,24 @@ article h1 + p, article h2 + p, article h3 + p {}
 ```
 
 [color short]: https://github.com/andrepolischuk/postcss-color-short
+
+
+### [focus]
+
+```pcss
+*:focus {
+    outline: 0;
+}
+.button:hover {
+    background: red;
+}
+```
+```pcss
+*:focus {
+    outline: 0;
+}
+.button:hover, .button:focus {
+    background: red;
+}
+```
+
