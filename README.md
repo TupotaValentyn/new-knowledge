@@ -25,7 +25,7 @@ article h1 + p, article h2 + p, article h3 + p {}
 
 
 
-### [Color Short]
+### [color short]
 
 ```pcss
 /* before */
@@ -46,3 +46,5 @@ article h1 + p, article h2 + p, article h3 + p {}
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 ```
+
+[color short]: https://github.com/andrepolischuk/postcss-color-short
