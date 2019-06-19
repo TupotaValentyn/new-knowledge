@@ -2,9 +2,9 @@
 I create this repo to summarize my new knowledge over the summer
 
 
-## CSS
+## POST CSS
 
-### @[custome selectors]
+### @[custome selector]
 
 ```pcss
 @custom-selector :--heading h1, h2, h3;
@@ -21,4 +21,28 @@ article h1 + p, article h2 + p, article h3 + p {}
 
 
 
-[custome selectors]: https://github.com/postcss/postcss-custom-selectors
+[custome selector]: https://github.com/postcss/postcss-custom-selectors
+
+
+
+### [Color Short]
+
+```pcss
+/* before */
+
+.hello {
+  border-bottom: 1px solid rgb(200);
+  background: #20;
+  color: #f;
+  box-shadow: 0 1px 5px rgba(0, 0.5);
+}
+
+/* after */
+
+.hello {
+  border-bottom: 1px solid rgb(200, 200, 200);
+  background: #202020;
+  color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+```
