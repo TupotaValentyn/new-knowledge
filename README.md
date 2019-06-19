@@ -68,4 +68,5 @@ article h1 + p, article h2 + p, article h3 + p {}
     background: red;
 }
 ```
+[focus]: https://github.com/postcss/postcss-focus
 
