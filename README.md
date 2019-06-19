@@ -4,7 +4,7 @@ I create this repo to summarize my new knowledge over the summer
 
 ## CSS
 
-### @custome selectors
+### @[custome selectors]
 
 ```pcss
 @custom-selector :--heading h1, h2, h3;
@@ -17,3 +17,8 @@ article :--heading + p {
 
 article h1 + p, article h2 + p, article h3 + p {}
 ```
+
+
+
+
+[custome selectors]: https://github.com/postcss/postcss-custom-selectors
